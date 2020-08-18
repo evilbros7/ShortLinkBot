@@ -48,7 +48,7 @@ NO_LINKS_PROVIDED = os.environ.get(
 )
 SHORTEN_LINK_API_URL = os.environ.get(
     "SHORTEN_LINK_API_URL",
-    "https://gplinks.in/api?api={api_token}&url={long_url}&format=text"
+    "https://urlshortx.com/api?api={api_token}&url={long_url}&format=text"
 )
 # webhook settings
 WEBHOOK_HOST = os.environ.get("URL", None)
